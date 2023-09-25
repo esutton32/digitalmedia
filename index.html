@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ella doing html for the nth time</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Next is a link to the cascading style sheet or CSS file. Web designers use a cascading stylesheet CSS to add styling to a website. Designers do this by "calling" a <div class> in HTML and defining the class attributes on the style sheet. Doing so saves time and results in less code. On the style.css page you'll find attributes relating to font, text size, image size, among other details.-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>ella fosse</h1>
+        <h2>museum studies / history </h2>
+      </div>
+    </div>
+    <div class="textblock">
+      <table>
+        <tr>
+          <th>
+            <a href="#intro">introduction</a>
+          </th>
+          <th>
+            <a href="#extra">fun facts</a>
+          </th>
+          <th>
+            <a href="#video">video project</a>
+          </th>
+          <th>
+            <a href="twine">twine</a>
+          </th>
+          <th>
+            <a href="#imaginary">imaginary app</a>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div class="textblock">
+      <h2 id="intro">intro to ella</h2>
+      <p>Hi there, I'm Ella, a junior Museum Studies and History student at the University of Pittsburgh. I minor in French and am getting a certificate in Russian and Eastern European Studies.</p>
+      <!--Replace the image here. You can also control image width and height %. This is the second way we can control the size of images on our website.-->
+      <img src="callie.jpg" alt="four men in suits/dresses sit at a table and look at the viewer"
+        class="center-img" style="max-width:100%; max-height:100%;">
+    </div>
+    <!--in this next section you will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand).-->
+    <div class="textblock">
+      <h2 id="extra">fun facts</h2>
+      <!--Show us. Find those beautiful, meaningful "family" photos and pictures of your place (only you can define family). If you are concerned about issues of privacy, you can always use stock images, or get creative. Add these photos to your project folder, making sure the files end in .jpg or .png and replace the names in the grid code below. You can add more images if you wish, or subtract...you might also need to move content around to achieve balance. See what happens – sometimes you have to be playful to find the purpose of things. Since these images are smaller, you will want to resize your images to less than 600px in width. This will improve load time and thus general accesibility. Don't forget to add alt="text"-->
+      <!--A photo grid uses rows and column classes to create some divisions on the page that will scale with mobile devices. The style.css page provides other attributes that will adjust the image depending on the size of screens.-->
+      <div class="row">
+        <div class="column">
+          <img src="cats.png" alt="describe the image HERE for accessibility purposes">
+          <img src="cats.png" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+          <img src="cats.png" alt="describe the image HERE for accessibility purposes">
+          <img src="cats.png" alt="describe the image HERE for accessibility purposes">
+        </div>
+        <div class="column">
+          <img src="cats.png" alt="describe the image HERE for accessibility purposes">
+          <img src="cats.png" alt="describe the image HERE for accessibility purposes">
+        </div>
+      </div>
+      <!--Time to write. Flesh it out! Define family, qualify it, explicate it telling us why these people are important, and how they contributed to how you got here and where you are going. What about "home." What  does that mean to you? In what ways is it significant in determining where your are going? Replace the content between <p> and </p> that says "Lorem ipsum."-->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <!--Now we are moving into the kinds of media that contributes to your everyday discourse. This might sound weird, but Ulmer argues that media has actually contributed a great deal to who you are as a person, how you language yourself, and even how you move through the world and interact with others. So, let's take some time to explore this discourse area. You have the opportunity to add video content or other significant media content. You might also add images to this section (see the bottom of this sheet for directions on how to add elements) perhaps adding a photo grid like the one you did for the "Family" section. Experiment. You can't break this thing, right? Control Z. Control Z. Control Z... -->
+    <div class="textblock">
+      <h2 id="video">video project</h2>
+      <!--find a YouTube video that has some significance in your life. Click "share," and copy and paste the embed link and paste it below-->
+      <div class="video-container">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/6dHdUv6AxZc?si=Axiop4GeP_wVtnSw"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <!--Add a quick caption or description of your video-->
+      <p>Lorem ipsum</p>
+      <!--Time to process. How do you use media? What role do certain kinds of media play in your life? How does media serve a social function? In what way might you be "recreating" or "remaking" media in your everyday life?
+
+FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bonorum et malorum," developers made it non-sensical. So while you will probably never write as well as Cicero, you can always improve upon "Lorem ipsum." -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <!--Between these divisions, you may want to add a new div element like an image (see the bottom of this html page for instructions) It's always worth thinking about how a user navigates your site. How do you want to break up the experience of scrolling down here? How might it feel on a laptop, phone, or tablet?-->
+    <!--We will use this next section to process your community(-ies)-->
+    <div class="textblock">
+      <h2 id="twine">twine</h2>
+      <!--So what exactly is your community: is it actual? virtual? Where do find your ground, or at least, where do you drop anchor, you drifter, you? While we often think of communities as neighborhoods and clubs and a group of colleagues or friends, you might find community across the frontiers of the dead, and perhaps even with those who have never lived. I'll let you explain. -->
+      <img src="cats.png"
+        alt="two orange cats on a shed roof-describe the image HERE for accessibility purposes"
+        class="center-img" style="max-width:100%;max-height:100%;">
+      <!--This image sits above your description below, but could it be the background like the hero image? You might try and modify this <div> by giving it a new class that mirrors the "hero-image" above. You can take care of that in the CSS. -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <!-- In our final discourse section, we will process the role schooling has played in our lives. -->
+    <!--To change the image for this wide screen paralax scroll, you will need change the file name in your style.css to match an image in your project folder. Look for ".paral1ax" on your style.css sheet-->
+    <div class="parallax">
+      <!--What happens if you put another div inside this parallax section? Get rid of the comment notation to find out!-->
+      <!-- Erase the line below this one to remove the div below from comments-->
+      <!--
+
+<div class="textblock">
+  <h2 style="color: white;">Lorem Ipsum</h2> 
+  <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+  </div>
+  
+-->
+      <!-- Erase the line above this one.-->
+      <!--note the "style="color: white;"" in the parallax section. How would this look if we kept up the standard "textblock" style? Try it out by erasing the "style="color: white;""-->
+      <!--You could set up your whole site with parallax sections if you wanted. Try and wrap another div in parralax. Or just add a heading and paragraph element inside the parallax div to see what you'll get. It's important to experiment. -->
+    </div>
+    <!--Like it or not, your schooling, formal and informal, for better or for worse, has been another factor that has brought you here and prepared you for this moment. Let's think through these systems, expectations, and outcomes. And let's also think a little about futurity... where is this learning, formal and informal – this unconcealing – taking you? -->
+    <div class="textblock">
+      <h2 id="imaginary">imaginary app</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="callie.jpg" alt="four men sit at a table and look at the viewer. it is disorienting"
+        style="max-width:25%;max-height:25%;">
+      <br/>
+      <object data="RESUME_Ella-Fosse_9-16_REVISED.pdf" type="application/pdf">
+        <p>Unable to display PDF file. <a href="RESUME_Ella-Fosse_9-16_REVISED.pdf">Download</a> instead.</p>
+      </object>
+    </div>
+    <!--The final step in our process will be to ensure that a smaller version of our "hero image," what Ulmer would refer to as our "wide image," repeats at the bottom of our document to better reinforce this motif.  -->
+    <div id="logo">
+      <img src="callie.jpg" alt="callie image"
+        style="max-width:25%;max-height:25%;">
+      <p>
+        <b>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt
+            Fuego</a></b>
+      </p>
+      <p>
+        <em>KO!!!</em>
+      </p>
+    </div>
+  </body>
+</html>
+<!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
+
+
+     ***Add Text Block***
+
+     (Format textblock using inline styling: text-align: left, center, justify, right; Format text: Italics: <em>italics</em>; Bold: <b>bold</b>; Link Website: <a href="link">LinkName</a>; Link Asset: <a href=filename.pdf>FileName</a>; Line Breaks: <br></br>)
+
+     (tip for composing longer content: replace <h2> with <p> and <p> for <p>)
+
+     <div class="textblock" style="text-align: left">
+         <h2>Header</h2>
+         <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     </div>
+
+
+
+     ***Add Block Quote***
+
+     (Format text: Italics: <em>italics</em>; Bold: <b>bold</b>. For more stylings, find blockquote class on style.css)
+
+     <div class="blockquote" style="text-align: center">
+         <h2>Excepteur sint occaecat cupidatat non proident!</h2>
+     </div>
+
+
+
+     ***Add Bulleted Points to Textblock***
+
+     (Change <ul></ul> to <ol></ol> to change from unordered list to ordered list. For more stylings, find the ul/li classes on style.css)
+
+     <div class= "ul">
+             <li>first</li>
+             <li>second</li>
+             <li>third</li>
+     </div>
+
+     -or- (try a nested list)
+
+     <div class="ul">
+         <li>Coffee</li>
+         <li>Tea
+           <ul>
+             <li>Black tea</li>
+             <li>Green tea</li>
+           </ul>
+          </li>
+         <li>Milk</li>
+      </div>
+
+
+
+      ***Add a Button***
+
+      (Clearly label button for accessibility purposes. If this is not possible, include: aria-label=”label for accessibility purposes.” For more stylings, find button class on style.css)
+
+      <div class="buttonbox">
+         <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/" class="button" aria-label="">Button</a>
+      </div>
+
+
+
+
+     ***Embed YouTube Video***
+
+     <div class="video">
+      <div class="video-container">
+        <<iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>>
+     </div>
+       <p>Add a caption.</p>
+     </div>
+
+
+
+     ***Add a Standard Image***
+
+     (Control image properties with inline width value.)
+
+     <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:30%;" class="center-img">
+     <p style="text-align: center"><em>Add a caption.</em></p>
+
+
+
+     ***Add Image Block with Padding and Caption*** (Control image properties with inline width value.)
+
+     <div class="imgageblock">
+         <img src="fuego.jpg" alt="describe the image HERE for accessibility purposes" style="width:100%;">
+          <p style="text-align: center"><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Photo Grid***
+
+     <div class="photogrid">
+     <div class="row">
+         <div class="column">
+             <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+         <div class="column">
+             <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
+             <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+         </div>
+     </div>
+         <p><em>Add a caption.</em></p>
+     </div>
+
+
+
+     ***Add a Parallax Window***
+
+     (To adjust window, find parallax class on style.css)
+
+     <div class="parallax"></div>
+
+
+
+     ***Add a Copyright Footer***
+
+     <div id="footer">
+       <p>Copyright Your Name, Year.</p>
+     </div>
+
+
+
+
+     ***Need something that's not here? Then you probably don't need it. But okay...go to w3 Schools***
+
+
+
+     Looking to publish this webtext in GitHub? Here are your next steps:
+
+     Sign in to GitHub. Create a new repository. Name it. Click “uploading an existing file,” then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->

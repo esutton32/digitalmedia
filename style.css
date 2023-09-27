@@ -2,8 +2,8 @@ body, html {
 	/* this controls universal elements on your site. Everything in here can be overridden by styles below. */
   height: 100%;
   margin: 0;
-  font-family: Verdana, Helvetica, Arial, san-serif; /* definitely check out https://www.w3schools.com/cssref/pr_font_font-family.asp for more info on font families */
-  background-color: white;
+  font-family: Georgia, arial, sans-serif; /* definitely check out https://www.w3schools.com/cssref/pr_font_font-family.asp for more info on font families */
+  background-color: lavender;
 }
 
 .hero-image {
@@ -52,7 +52,7 @@ body, html {
 	font-weight: bold;
 	line-height: 1.5;
 	justify-content: space-evenly;
-	margin: 5 px;
+	background-color:lightsalmon;
   }
   
   th {
